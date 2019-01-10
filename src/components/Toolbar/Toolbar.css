@@ -3,8 +3,50 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: #521751;
+    background: #777277;
     height: 56px;
+}
+
+.toolbar__navigation{
+    
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+
+}
+
+.toolbar_navigation-items ul{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+
+.toolbar_navigation-items li{
+
+    padding: 0 0.5rem;
+}
+
+.spacer{
+    flex: 1;
+}
+
+.toolbar_navigation-items a{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.toolbar_navigation-items a:hover,
+.toolbar_navigation-items a:active{
+    color: #c9633a
+}
+
+.toolbar__logo{
+    margin-left: 4rem;   
 }
 
 .toolbar__logo a {
